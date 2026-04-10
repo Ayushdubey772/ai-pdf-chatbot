@@ -1,0 +1,25 @@
+# ============================================================
+# requirements.txt — All packages needed to run this project
+# ============================================================
+# Install everything with:  pip install -r requirements.txt
+
+# --- Streamlit (the web UI framework) ---
+streamlit>=1.32.0
+
+# --- LangChain core + community integrations ---
+langchain>=0.1.16
+langchain-community>=0.0.38
+langchain-google-genai>=1.0.3
+
+# --- Google Generative AI SDK (Gemini) ---
+google-generativeai>=0.5.0
+
+# --- FAISS: Facebook AI Similarity Search (vector database) ---
+# Use the CPU-only build so it works on any machine
+faiss-cpu>=1.8.0
+
+# --- PDF loading ---
+pypdf>=4.1.0
+
+# --- Environment variable management (.env file support) ---
+python-dotenv>=1.0.1

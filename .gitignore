@@ -1,0 +1,30 @@
+# ==============================================
+# .gitignore — Files Git should NOT track
+# ==============================================
+
+# --- Secret API keys (NEVER commit this!) ---
+.env
+
+# --- Python virtual environments ---
+venv/
+env/
+.venv/
+
+# --- Python cache files ---
+__pycache__/
+*.pyc
+*.pyo
+
+# --- FAISS index (auto-generated, can be large) ---
+faiss_index/
+
+# --- Uploaded PDFs (user data, not part of codebase) ---
+temp_pdfs/
+*.pdf
+
+# --- Streamlit cache ---
+.streamlit/
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
